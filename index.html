@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthew Munyao Mutua - IT Professional Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Custom font for a professional look */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+        }
+        /* Specific styles for better readability and spacing */
+        .section-heading {
+            border-bottom: 2px solid #e5e7eb; /* Light gray border for headings */
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .experience-item, .education-item, .skills-item {
+            background-color: #ffffff; /* White background for content blocks */
+            border-radius: 0.75rem; /* Rounded corners */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* Subtle shadow */
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .skill-category {
+            background-color: #f9fafb; /* Slightly darker background for skill categories */
+            border-left: 4px solid #6366f1; /* Purple border for emphasis */
+            padding: 0.75rem;
+            border-radius: 0.5rem;
+        }
+        .achievement-item {
+            background-color: #eef2ff; /* Light blue background for achievements */
+            border-left: 4px solid #4f46e5; /* Deeper purple border */
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-indigo-600 to-purple-700 text-white p-8 md:p-12 shadow-lg rounded-b-3xl">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-2">Matthew Munyao Mutua</h1>
+            <p class="text-xl md:text-2xl font-light mb-6">IT Professional | Systems Administrator | Network Manager</p>
+            <div class="flex flex-col md:flex-row justify-center items-center space-y-2 md:space-y-0 md:space-x-8 text-lg">
+                <span class="flex items-center">
+                    <i class="fas fa-map-marker-alt mr-2 text-indigo-200"></i> PO BOX 41965-00100, Nairobi
+                </span>
+                <span class="flex items-center">
+                    <i class="fas fa-phone mr-2 text-indigo-200"></i> +254 726040203
+                </span>
+                <span class="flex items-center">
+                    <i class="fas fa-envelope mr-2 text-indigo-200"></i> matthew.m.mutua@gmail.com
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="max-w-4xl mx-auto p-6 md:p-8">
+
+        <!-- Career Profile Section -->
+        <section id="profile" class="mb-10">
+            <h2 class="text-3xl font-semibold section-heading text-indigo-700">Career Profile</h2>
+            <div class="experience-item">
+                <p class="text-gray-700 leading-relaxed">
+                    A highly experienced and versatile IT professional with over 8 years of expertise in hardware deployment,
+                    end-user support, system administration, and network management. Proven ability to diagnose, repair,
+                    and enhance IT systems, ensuring compliance with organizational standards. Adept at implementing mass
+                    deployment solutions and managing hardware life cycles, from installation to decommissioning, while
+                    maintaining data integrity and security. Strong background in project management, hardware research,
+                    and Business Continuity Processes (BCP). Enthusiastic about applying extensive knowledge to ensure
+                    the smooth operation of IT infrastructure.
+                </p>
+            </div>
+        </section>
+
+        <!-- Key Skills and Competencies Section -->
+        <section id="key-skills" class="mb-10">
+            <h2 class="text-3xl font-semibold section-heading text-indigo-700">Key Skills and Competencies</h2>
+            <div class="experience-item">
+                <ul class="list-disc list-inside text-gray-700 space-y-2">
+                    <li><strong class="text-indigo-600">Hardware Deployment:</strong> Experience in implementing and supporting new hardware installations in line with organizational best practices.</li>
+                    <li><strong class="text-indigo-600">End-User Support:</strong> Strong capability in diagnosing and resolving hardware issues or escalating to vendors when necessary.</li>
+                    <li><strong class="text-indigo-600">Hardware & Software Testing:</strong> Expertise in researching, testing, and implementing new hardware and related software to optimize equipment performance.</li>
+                    <li><strong class="text-indigo-600">Data Security:</strong> Skilled in ensuring secure hardware disposal and data eradication.</li>
+                    <li><strong class="text-indigo-600">Business Continuity:</strong> Proficient in adhering to organizational Business Continuity Processes, with a focus on minimizing downtime.</li>
+                    <li><strong class="text-indigo-600">Operating Systems & Networking:</strong> Strong knowledge of Windows, Unix, Active Directory, and network services.</li>
+                    <li><strong class="text-indigo-600">Mass Deployment:</strong> Knowledge of mass deployment solutions including SCCM, patch management, and cloning.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="technical-skills" class="mb-10">
+            <h2 class="text-3xl font-semibold section-heading text-indigo-700">Technical Skills</h2>
+            <div class="experience-item">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 text-gray-700">
+                    <div class="skill-category">
+                        <h3 class="font-semibold text-lg mb-1 text-indigo-800">Operating Systems:</h3>
+                        <p>Windows Server 2016/2019, Unix</p>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="font-semibold text-lg mb-1 text-indigo-800">Virtualization:</h3>
+                        <p>VMWare, Hyper-V, Citrix Xenserver, Proxmox</p>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="font-semibold text-lg mb-1 text-indigo-800">Networking:</h3>
+                        <p>Cisco Routers & Switches, UniFi devices, VoIP systems</p>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="font-semibold text-lg mb-1 text-indigo-800">Mass Deployment & Support:</h3>
+                        <p>SCCM, patch management, cloning solutions</p>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="font-semibold text-lg mb-1 text-indigo-800">Firewall Systems:</h3>
+                        <p>Sophos, Pfsense, SonicWall, Fortinet</p>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="font-semibold text-lg mb-1 text-indigo-800">Collaboration Tools:</h3>
+                        <p>Microsoft 365, Google Workspace</p>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="font-semibold text-lg mb-1 text-indigo-800">Database Systems:</h3>
+                        <p>Knowledge in database management systems (DBMS)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Experience Section -->
+        <section id="experience" class="mb-10">
+            <h2 class="text-3xl font-semibold section-heading text-indigo-700">Professional Experience</h2>
+
+            <!-- Senior Information Technology Engineer -->
+            <div class="experience-item">
+                <h3 class="text-xl font-bold text-indigo-700">Senior Information Technology Engineer</h3>
+                <p class="text-gray-600 text-sm mb-2">XC360 EA LTD | May 2023 - Present</p>
+                <ul class="list-disc list-inside text-gray-700 space-y-1">
+                    <li>Overseeing hardware and software deployments across various client environments.</li>
+                    <li>Leading the research, testing, and implementation of new hardware technologies to improve existing infrastructure.</li>
+                    <li>Responsible for protecting client data through backup and restoration systems (on-prem and cloud-based solutions).</li>
+                    <li>Managing client virtual environments using VMWare, Hyper-V, and Citrix Xenserver.</li>
+                    <li>Ensuring security of IT infrastructure through the deployment of firewalls, antivirus software, and Active Directory management.</li>
+                    <li>Utilized tools like SCCM for efficient patch management and large-scale deployment of hardware and software.</li>
+                </ul>
+            </div>
+
+            <!-- ICT Support Officer - Computer Action Networks -->
+            <div class="experience-item">
+                <h3 class="text-xl font-bold text-indigo-700">ICT Support Officer</h3>
+                <p class="text-gray-600 text-sm mb-2">Computer Action Networks | September 2018 - May 2023</p>
+                <ul class="list-disc list-inside text-gray-700 space-y-1">
+                    <li>Delivered IT support by managing hardware installations, diagnostics, and repairs.</li>
+                    <li>Ensured system and network integrity through firewall configurations, routine backups, and system updates.</li>
+                    <li>Coordinated Microsoft 365 and Google Workspace for email domain support.</li>
+                    <li>Oversaw virtual and physical server management, ensuring high availability and performance.</li>
+                </ul>
+            </div>
+
+            <!-- ICT Support Officer - Digital Divide Data -->
+            <div class="experience-item">
+                <h3 class="text-xl font-bold text-indigo-700">ICT Support Officer</h3>
+                <p class="text-gray-600 text-sm mb-2">Digital Divide Data | June 2014 - June 2018</p>
+                <ul class="list-disc list-inside text-gray-700 space-y-1">
+                    <li>Led hardware deployments, user training, and end-user support.</li>
+                    <li>Assisted with server configuration and management, contributing to the seamless operation of business applications.</li>
+                    <li>Successfully implemented and managed an open-source firewall and IT ticketing system.</li>
+                </ul>
+            </div>
+
+            <!-- ICT Support Intern - AMREF Kenya -->
+            <div class="experience-item">
+                <h3 class="text-xl font-bold text-indigo-700">ICT Support Intern</h3>
+                <p class="text-gray-600 text-sm mb-2">AMREF Kenya | May 2012 - July 2012</p>
+                <ul class="list-disc list-inside text-gray-700 space-y-1">
+                    <li>Assisted in end-user hardware and software installations and maintenance.</li>
+                    <li>Provided help desk support and participated in data backup procedures.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="mb-10">
+            <h2 class="text-3xl font-semibold section-heading text-indigo-700">Achievements</h2>
+            <div class="experience-item">
+                <ul class="list-disc list-inside text-gray-700 space-y-2">
+                    <li class="achievement-item">Successfully implemented a large-scale SCCM deployment to enhance hardware and software management.</li>
+                    <li class="achievement-item">Regained firewall and network control without losing configurations from a rogue IT Admin.</li>
+                    <li class="achievement-item">Spearheaded the transition from Hyper-V to Citrix Xenserver for enhanced virtualization performance.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education & Certifications Section -->
+        <section id="education" class="mb-10">
+            <h2 class="text-3xl font-semibold section-heading text-indigo-700">Education & Certifications</h2>
+            <div class="experience-item">
+                <ul class="list-disc list-inside text-gray-700 space-y-3">
+                    <li class="education-item">
+                        <h3 class="font-semibold text-lg text-indigo-800">Bachelor of Science, Computer Science</h3>
+                        <p class="text-gray-600 text-sm">Catholic University of Eastern Africa | 2010 - 2013</p>
+                    </li>
+                    <li class="education-item">
+                        <h3 class="font-semibold text-lg text-indigo-800">Sophos Certified Engineer</h3>
+                        <p class="text-gray-600 text-sm">XC360 Sophos Partnership Program | October 2023</p>
+                    </li>
+                    <li class="education-item">
+                        <h3 class="font-semibold text-lg text-indigo-800">Certificate in IT Infrastructure Library</h3>
+                        <p class="text-gray-600 text-sm">Institute of Software Technologies | December 2014</p>
+                    </li>
+                    <li class="education-item">
+                        <h3 class="font-semibold text-lg text-indigo-800">Cisco Certified Network Associate (CCNA) Routing & Switching</h3>
+                        <p class="text-gray-600 text-sm">Techno Brain Kenya | October 2014</p>
+                    </li>
+                    <li class="education-item">
+                        <h3 class="font-semibold text-lg text-indigo-800">Certificate in Applied Computer Science</h3>
+                        <p class="text-gray-600 text-sm">Catholic University of Eastern Africa (IBM Kenya) | May 2014</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white p-6 md:p-8 text-center rounded-t-3xl mt-10">
+        <p>&copy; 2025 Matthew Munyao Mutua. All rights reserved.</p>
+        <p class="text-sm mt-2">Connect with me: <a href="mailto:matthew.m.mutua@gmail.com" class="text-indigo-400 hover:underline">matthew.m.mutua@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>
